@@ -20,7 +20,7 @@ This sales forecasting model will help the company to make informed decisions ab
 
 ## 3. My Contribution to the Project:
 
-### 3.1 Exploratory Data Analysis:
+### 3.1. Exploratory Data Analysis:
 
 #### Soft Opening Sales Trends:
 Analyzed soft opening dates to discern notable sales patterns during initial operational phases. Day-2 consistently outperformed Day-1 for most stores, indicating positive early engagement. This trend extended to week-2 surpassing week-1 and month-2 exceeding month-1 sales, highlighting a favorable momentum in the initial stages of store operations. These insights guide businesses in optimizing sales strategies during crucial soft opening phases.
@@ -28,7 +28,7 @@ Analyzed soft opening dates to discern notable sales patterns during initial ope
 #### Seasonal Store Openings and Sales Correlation Analysis:
 Explored correlations between store sales and demographic factors, uncovering significant associations. Presence of bonfire_grill and pizza correlated strongly with food service sales, providing strategic direction for product offerings. Positive correlations were identified between employee-to-population ratio and store sales, suggesting advantages for businesses in areas with higher employment density. Examined seasonal trends in store openings, noting higher frequencies in summer and spring and fewer in winter. These findings offer actionable insights for businesses in planning optimal opening periods based on seasonal considerations.
 
-### 3.2 Modelling:
+### 3.2. Modelling:
 
 #### Decomposition and Stationarity Analysis:
 Conducted a thorough exploration of time series decomposition to identify patterns in sales datasets. Notably, "Total_inside_sales" exhibited a consistent seasonal pattern with higher sales in summer and lower sales in winter. Confirmation of stationarity for all target variables was crucial for subsequent ARIMA and SARIMA modeling, ensuring reliable forecasting.
@@ -49,6 +49,13 @@ Conducted SARIMA modeling on site number 21560, utilizing different training and
 
 ## 6. My Learnings:
 
+Throughout this project, I deepened my understanding of time series forecasting, particularly in the context of Maverik's expansion strategy. The core challenge of predicting daily sales for new stores highlighted the critical role of accurate forecasting in financial planning and ROI assessment for businesses.
 
+### 6.1. Business Problem Understanding:
+Navigating Maverik's expansion plan underscored the pivotal importance of time series forecasting for guiding strategic decisions. The practical implications of forecasting daily sales for financial planning and ROI assessment became evident, emphasizing the direct impact on business sustainability and growth.
 
+### 6.2. Data Exploration and Analysis:
+Conducting exploratory data analysis (EDA) revealed insights into time series patterns, crucial for understanding sales dynamics. Uncovering correlations between various factors and sales further emphasized the nuanced nature of time-dependent data, showcasing the need for robust forecasting models.
 
+### 6.3. Modeling Challenges and Solutions:
+The modeling phase brought to light challenges in traditional time series approaches such as ARIMA and SARIMA. Leveraging advanced techniques like XGBoosting proved essential for addressing the complexities inherent in time series data. This experience emphasized the practical application of time series forecasting methods, reinforcing their significance in deriving meaningful insights from historical sales data.
