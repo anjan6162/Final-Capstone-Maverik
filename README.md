@@ -57,5 +57,5 @@ Navigating Maverik's expansion plan underscored the pivotal importance of time s
 ### 6.2. Data Exploration and Analysis:
 Conducting exploratory data analysis (EDA) revealed insights into time series patterns, crucial for understanding sales dynamics. Uncovering correlations between various factors and sales further emphasized the nuanced nature of time-dependent data, showcasing the need for robust forecasting models.
 
-### 6.3. Modeling Challenges and Solutions:
+### 6.3. Modeling Solutions:
 The modeling phase brought to light challenges in traditional time series approaches such as ARIMA and SARIMA. Leveraging advanced techniques like XGBoosting proved essential for addressing the complexities inherent in time series data. This experience emphasized the practical application of time series forecasting methods, reinforcing their significance in deriving meaningful insights from historical sales data.
