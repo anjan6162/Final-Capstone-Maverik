@@ -16,6 +16,16 @@ This sales forecasting model will help the company to make informed decisions ab
 
 ## 2. Solution:
 
+### Exploratory Data Analysis:
+
+#### Soft Opening Sales Trends:
+Analyzed soft opening dates to discern notable sales patterns during initial operational phases. Day-2 consistently outperformed Day-1 for most stores, indicating positive early engagement. This trend extended to week-2 surpassing week-1 and month-2 exceeding month-1 sales, highlighting a favorable momentum in the initial stages of store operations. These insights guide businesses in optimizing sales strategies during crucial soft opening phases.
+
+#### Seasonal Store Openings and Sales Correlation Analysis:
+Explored correlations between store sales and demographic factors, uncovering significant associations. Presence of bonfire_grill and pizza correlated strongly with food service sales, providing strategic direction for product offerings. Positive correlations were identified between employee-to-population ratio and store sales, suggesting advantages for businesses in areas with higher employment density. Examined seasonal trends in store openings, noting higher frequencies in summer and spring and fewer in winter. These findings offer actionable insights for businesses in planning optimal opening periods based on seasonal considerations.
+
+### Modelling:
+
 
 
 ## 3. My Contribution to the Project:
