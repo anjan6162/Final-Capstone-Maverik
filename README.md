@@ -16,7 +16,11 @@ This sales forecasting model will help the company to make informed decisions ab
 
 ## 2. Solution:
 
-### Exploratory Data Analysis:
+
+
+## 3. My Contribution to the Project:
+
+### 3.1 Exploratory Data Analysis:
 
 #### Soft Opening Sales Trends:
 Analyzed soft opening dates to discern notable sales patterns during initial operational phases. Day-2 consistently outperformed Day-1 for most stores, indicating positive early engagement. This trend extended to week-2 surpassing week-1 and month-2 exceeding month-1 sales, highlighting a favorable momentum in the initial stages of store operations. These insights guide businesses in optimizing sales strategies during crucial soft opening phases.
@@ -24,13 +28,16 @@ Analyzed soft opening dates to discern notable sales patterns during initial ope
 #### Seasonal Store Openings and Sales Correlation Analysis:
 Explored correlations between store sales and demographic factors, uncovering significant associations. Presence of bonfire_grill and pizza correlated strongly with food service sales, providing strategic direction for product offerings. Positive correlations were identified between employee-to-population ratio and store sales, suggesting advantages for businesses in areas with higher employment density. Examined seasonal trends in store openings, noting higher frequencies in summer and spring and fewer in winter. These findings offer actionable insights for businesses in planning optimal opening periods based on seasonal considerations.
 
-### Modelling:
+### 3.2 Modelling:
 
+#### Decomposition and Stationarity Analysis:
+Conducted a thorough exploration of time series decomposition to identify patterns in sales datasets. Notably, "Total_inside_sales" exhibited a consistent seasonal pattern with higher sales in summer and lower sales in winter. Confirmation of stationarity for all target variables was crucial for subsequent ARIMA and SARIMA modeling, ensuring reliable forecasting.
 
+#### ARIMA Modeling Insights:
+Focused on site-21980, applying ARIMA modeling to assess performance based on the "total_inside_sales" target variable. Despite showcasing low MAE at 306.83 and RMSE at 391.75, ARIMA was deemed unsuitable due to limitations. ARIMA failed to account for distinctions between weekdays and weekends, lacked inherent consideration for holidays, and struggled to capture intricate seasonal patterns. These shortcomings prompted exploration of Seasonal ARIMA (SARIMA) models for improved forecasting accuracy.
 
-## 3. My Contribution to the Project:
-
-
+#### SARIMA Model Evaluation:
+Conducted SARIMA modeling on site number 21560, utilizing different training and testing splits. Notable results included a 70:30 split yielding the lowest RMSE and second lowest MAE, establishing it as the optimal model choice. However, SARIMA models, akin to ARIMA, faced challenges in accurately forecasting sales patterns concerning weekly seasonality, weekend versus weekday sales, and holiday versus non-holiday sales. Limitations notwithstanding, the SARIMA model selection process and outcomes are documented, providing valuable insights into time series forecasting for sales data.
 
 ## 4. The Business Value of the Solution:
 
