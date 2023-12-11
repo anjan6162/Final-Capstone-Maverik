@@ -45,7 +45,16 @@ Conducted SARIMA modeling on site number 21560, utilizing different training and
 
 ## 5. Difficulties faced:
 
+### Extended Model Run Times: 
+The modeling phase, particularly in SARIMA, presented challenges with extended run times. Attempting to achieve daily granularity (s=365) in SARIMA, which would have provided a more detailed understanding of the daily sales patterns, resulted in impractical run times due to technical constraints. Striking a balance between detailed granularity and computational efficiency became a key challenge in achieving the desired precision in time series forecasting.
 
+### Complexity in Capturing Seasonal Patterns: 
+Both ARIMA and SARIMA models struggled to capture complex sales patterns, especially concerning seasonality and holiday-specific variations. The inherent limitations of these models in handling intricate temporal trends posed a challenge in accurately forecasting sales data, necessitating a careful consideration of alternative approaches and model refinement to enhance predictive capabilities.
+
+### Optimal Model Selection: 
+Choosing the optimal model for forecasting, especially when considering various factors such as seasonality, holidays, and week-specific sales trends, posed inherent difficulties. The diverse characteristics of the Maverik sales data required meticulous evaluation and comparison of different forecasting methods, emphasizing the ongoing challenge of balancing model complexity and accuracy to meet Maverik's specific business objectives.
+
+These difficulties underscore the intricate nature of time series forecasting in the retail domain and highlight the ongoing need for a nuanced approach to modeling, considering computational constraints, seasonal intricacies, and the diversity of sales patterns across different product categories.
 
 ## 6. My Learnings:
 
